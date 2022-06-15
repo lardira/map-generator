@@ -29,7 +29,7 @@ private:
 private:
 	const QColor bgColor = Qt::lightGray;
 
-	std::unique_ptr<MapGenerator> mapGenerator;
+	std::unique_ptr<MapGenerator> mapGenerator = std::make_unique<MapGenerator>();
 	QGraphicsScene* mapScene = new QGraphicsScene();
 	QImage map;
 };
