@@ -33,4 +33,3 @@ private:
 	QGraphicsScene* mapScene = new QGraphicsScene();
 	QImage map;
 };
-

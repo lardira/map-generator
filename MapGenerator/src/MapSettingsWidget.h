@@ -9,4 +9,3 @@ class MapSettingsWidget : public QWidget
 public:
 	MapSettingsWidget(QWidget* parent = nullptr);
 };
-

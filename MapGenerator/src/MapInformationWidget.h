@@ -4,7 +4,6 @@
 
 class MapInformationWidget : public QWidget
 {
-public: 
+public:
 	MapInformationWidget(QWidget* parent = nullptr);
 };
-

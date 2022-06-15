@@ -16,4 +16,3 @@ private:
 	QSize size{ defaultSize };
 	float** data;
 };
-
